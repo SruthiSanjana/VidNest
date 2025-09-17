@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",    
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es2019"],             // include modern libs
+    "skipLibCheck": true,          // 👈 prevents TS from checking node_modules
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+      "esModuleInterop": true,
+      "outDir": "./dist"
+    },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts"]
+}
